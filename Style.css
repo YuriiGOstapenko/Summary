@@ -1,0 +1,109 @@
+#container{
+    display:flex;
+    justify-content:left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info{
+    
+    background-color: #5f9ea0;
+    margin:  0px 10px 20px 10px;
+    padding: 0px 100px 10px 25px;
+    border-radius: 20px;
+
+}
+#info p {
+    font-size: 25px;
+}
+
+#info td {
+    font-size: 25px;
+}
+.info-table td{
+    width: 40%;
+}
+.avatar{
+    margin: 5px 100px;
+    border-radius: 20px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 7px black;
+    
+}
+#exp{
+    background-image: url(Water.jpg);
+    margin:  0px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.ex-table{
+   width: 70%;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+
+.ex-table td{
+    padding-bottom: 10px;
+}
+
+.ex-table td:nth-child(2),.ex-table td:nth-child(3) {
+color: rgb(233, 211, 211);
+font-size: 25px;
+}
+
+.a-ex{
+    color: rgb(81, 255, 0);
+    font-size: 25px;
+}
+
+.a-info{
+    font-size: 25px;
+
+
+}
+
+.tex-style {
+    font-size: 25px;
+    margin-bottom: 25px;
+    padding-right: 300px;
+}
+
+.form label{
+    display: block;
+    font-size: 25px;
+
+}
+
+.form input{
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.btn{
+    color: blue;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+.box{
+    width: 70%;
+    background-image: url(sky.jpg) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
